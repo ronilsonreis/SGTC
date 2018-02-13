@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="br.com.wms.sgtc.model.WmsAddress"/>
+		<mapping class="br.com.wms.sgtc.model.WmsApproval"/>
+		<mapping class="br.com.wms.sgtc.model.WmsCatalog"/>
+		<mapping class="br.com.wms.sgtc.model.WmsContact"/>
+		<mapping class="br.com.wms.sgtc.model.WmsCustomer"/>
+		<mapping class="br.com.wms.sgtc.model.WmsItemBudget"/>
+		<mapping class="br.com.wms.sgtc.model.WmsLocalVisit"/>
+		<mapping class="br.com.wms.sgtc.model.WmsProposal"/>
+		<mapping class="br.com.wms.sgtc.model.WmsSalesMan"/>
+		<mapping class="br.com.wms.sgtc.model.WmsSalesVisit"/>
+		<mapping class="br.com.wms.sgtc.model.WmsTelefone"/>
+	</session-factory>
+</hibernate-configuration>
